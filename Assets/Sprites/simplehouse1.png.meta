@@ -20,6 +20,33 @@ TextureImporter:
   - first:
       213: -6183094726056338534
     second: simplehouse1_5
+  - first:
+      213: -2937973340327652754
+    second: simplehouse1_0
+  - first:
+      213: 5002829076770133056
+    second: simplehouse1_1
+  - first:
+      213: -1286337242962759493
+    second: simplehouse1_2
+  - first:
+      213: 1747258296825425893
+    second: simplehouse1_3
+  - first:
+      213: -3721061164700726437
+    second: simplehouse1_4
+  - first:
+      213: 1761478438686969267
+    second: simplehouse1_5
+  - first:
+      213: -6845219272494813049
+    second: simplehouse1_6
+  - first:
+      213: -1551177820342383185
+    second: simplehouse1_7
+  - first:
+      213: -1596951756156309102
+    second: simplehouse1_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -134,8 +161,8 @@ TextureImporter:
       name: simplehouse1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 113
+        x: 14
+        y: 311
         width: 128
         height: 67
       alignment: 0
@@ -145,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 023fad1e36d9a7570800000000000000
-      internalID: 8465251501912814368
+      spriteID: e62d33220d83a37d0800000000000000
+      internalID: -2937973340327652754
       vertices: []
       indices: 
       edges: []
@@ -155,8 +182,8 @@ TextureImporter:
       name: simplehouse1_1
       rect:
         serializedVersion: 2
-        x: 138
-        y: 113
+        x: 152
+        y: 311
         width: 128
         height: 67
       alignment: 0
@@ -166,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8be3404347813b20800000000000000
-      internalID: 3112417540400475020
+      spriteID: 04411e80a8e9d6540800000000000000
+      internalID: 5002829076770133056
       vertices: []
       indices: 
       edges: []
@@ -176,8 +203,8 @@ TextureImporter:
       name: simplehouse1_2
       rect:
         serializedVersion: 2
-        x: 271
-        y: 110
+        x: 285
+        y: 308
         width: 128
         height: 67
       alignment: 0
@@ -187,8 +214,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54c55d2b2a99af2d0800000000000000
-      internalID: -3244111657502942139
+      spriteID: bb079d3c713062ee0800000000000000
+      internalID: -1286337242962759493
       vertices: []
       indices: 
       edges: []
@@ -197,8 +224,8 @@ TextureImporter:
       name: simplehouse1_3
       rect:
         serializedVersion: 2
-        x: 409
-        y: 110
+        x: 423
+        y: 308
         width: 128
         height: 67
       alignment: 0
@@ -208,8 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b169683f052b47d0800000000000000
-      internalID: -2933209985000578638
+      spriteID: 5ef2221e9228f3810800000000000000
+      internalID: 1747258296825425893
       vertices: []
       indices: 
       edges: []
@@ -218,8 +245,8 @@ TextureImporter:
       name: simplehouse1_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 43
+        x: 570
+        y: 313
         width: 128
         height: 67
       alignment: 0
@@ -229,8 +256,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97913f346ff7f4530800000000000000
-      internalID: 3841429702849010041
+      spriteID: b5b0382f5922c5cc0800000000000000
+      internalID: -3721061164700726437
       vertices: []
       indices: 
       edges: []
@@ -239,8 +266,50 @@ TextureImporter:
       name: simplehouse1_5
       rect:
         serializedVersion: 2
-        x: 167
-        y: 36
+        x: 29
+        y: 200
+        width: 96
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd4279ae47027810800000000000000
+      internalID: 1761478438686969267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simplehouse1_6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 201
+        width: 96
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780f945d655e001a0800000000000000
+      internalID: -6845219272494813049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simplehouse1_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 102
         width: 12
         height: 64
       alignment: 0
@@ -250,8 +319,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9b12d82b1c313aa0800000000000000
-      internalID: -6183094726056338534
+      spriteID: fad070badfb197ae0800000000000000
+      internalID: -1551177820342383185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simplehouse1_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291fddab6dc76d9e0800000000000000
+      internalID: -1596951756156309102
       vertices: []
       indices: 
       edges: []
