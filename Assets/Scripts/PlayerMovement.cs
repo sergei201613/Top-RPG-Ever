@@ -26,6 +26,6 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        //spriteRenderer.sortingOrder = 10 + Mathf.RoundToInt((1 - transform.position.y) * 10);
+        spriteRenderer.sortingOrder = 10 + Mathf.RoundToInt((1 - transform.position.y) * 10);
     }
 }
