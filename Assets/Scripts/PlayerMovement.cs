@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5f;
-    public Rigidbody2D rb;
-    public Animator animator;
-    public SpriteRenderer spriteRenderer;
-
+    [SerializeField] private float speed = 5f;
+    [SerializeField] private Rigidbody2D rb = null;
+    [SerializeField] private Animator animator = null;
     private Vector2 movement;
-    private bool flipX;
 
     void Update()
     {
@@ -25,7 +22,19 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+    }
 
-        spriteRenderer.sortingOrder = 10 + Mathf.RoundToInt((1 - transform.position.y) * 10);
+    private void OnTriggerStay2D(Collider2D other) {
+        var transparent = other.GetComponent<TransparentNearByPlayer>();
+        if (transparent != null) {
+            transparent.MakeTransparent();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other) {
+        var transparent = other.GetComponent<TransparentNearByPlayer>();
+        if (transparent != null) {
+            transparent.MakeOpaque();
+        }
     }
 }

@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class LayerSorter : MonoBehaviour
 {
-    [SerializeField] private SpriteRenderer sprite;
+    [SerializeField] private SpriteRenderer sprite = null;
+    [SerializeField] private bool updateRuntime = false;
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.tag == "Obstacle")
-        {
-            if (transform.position.y > collision.transform.position.y)
-                sprite.sortingOrder = collision.GetComponentInChildren<SpriteRenderer>().sortingOrder - 1;
-            else
-                sprite.sortingOrder = 200;
-        }
+    private void OnEnable() {
+        UpdateSortingOrder();
+    }
+
+    private void FixedUpdate() {
+        UpdateSortingOrder();
+        enabled = updateRuntime;
+    }
+
+    private void UpdateSortingOrder() {
+        sprite.sortingOrder = Mathf.RoundToInt((1 - transform.position.y) * 10);
     }
 }
